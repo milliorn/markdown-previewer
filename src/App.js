@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { marked } from "marked";
 import { Header } from "./components/Header";
+import { TextArea } from "./components/TextArea";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -48,13 +49,7 @@ function example() {
             Enter your text here:
           </h2>
 
-          <textarea
-            aria-label="Add text here"
-            id="editor"
-            className="w-72 sm:w-10/12 h-64 max-w-7xl p-2 border-2 border-sky-400 rounded-b-md shadow-md resize-none focus:outline-none bg-sky-50"
-            value={text}
-            onChange={handleChange}
-          ></textarea>
+          <TextArea text={text} handleChange={handleChange} />
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mb-0 bg-sky-100 w-72 sm:w-10/12 text-center mt-4 rounded-t-md max-w-7xl">
             Preview:
@@ -86,5 +81,3 @@ function example() {
 }
 
 export default App;
-
-
