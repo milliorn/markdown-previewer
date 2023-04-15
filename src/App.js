@@ -4,6 +4,7 @@ import { marked } from "marked";
 import { Header } from "./components/Header";
 import { Preview } from "./components/Preview";
 import { TextArea } from "./components/TextArea";
+import { Footer } from "./components/Footer";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -51,20 +52,7 @@ function example() {
         </div>
       </div>
 
-      <footer className="flex justify-center text-sky-50">
-        <p className="my-8">
-          &copy; {currentYear}{" "}
-          <a
-            href="https://github.com/milliorn"
-            alt="github"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="link to source code on Github"
-          >
-            Scott Milliorn
-          </a>
-        </p>
-      </footer>
+      <Footer currentYear={currentYear} />
     </div>
   );
 }

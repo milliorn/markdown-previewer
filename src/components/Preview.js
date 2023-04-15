@@ -1,3 +1,4 @@
+// Component displays a preview of the text entered by the user.
 export function Preview() {
   return (
     <>

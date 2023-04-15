@@ -1,4 +1,4 @@
-// Functional component that represents the TextArea in the app
+// Component that represents the TextArea in the app
 export function TextArea(props) {
   const { text, handleChange } = props;
   return (
