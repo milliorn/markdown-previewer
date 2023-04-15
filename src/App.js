@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { marked } from "marked";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Preview } from "./components/Preview";
 import { TextArea } from "./components/TextArea";
-import { Footer } from "./components/Footer";
 
 function App() {
   const currentYear = new Date().getFullYear();
