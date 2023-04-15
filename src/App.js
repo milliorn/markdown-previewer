@@ -45,10 +45,6 @@ function example() {
         <Header />
 
         <div className="flex flex-col items-center justify-center min-h-full">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mb-0 bg-sky-100 w-72 sm:w-10/12 text-center rounded-t-md max-w-7xl">
-            Enter your text here:
-          </h2>
-
           <TextArea text={text} handleChange={handleChange} />
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mb-0 bg-sky-100 w-72 sm:w-10/12 text-center mt-4 rounded-t-md max-w-7xl">
