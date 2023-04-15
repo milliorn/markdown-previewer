@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { marked } from "marked";
+import { Header } from "./components/Header";
 
 function App() {
   const currentYear = new Date().getFullYear();
@@ -40,11 +41,7 @@ function example() {
   return (
     <div className="bg-sky-400 dark:bg-sky-950 min-h-screen flex flex-col justify-between">
       <div>
-        <header>
-          <h1 className="text-sky-50 text-center text-6xl p-4 mb-4 sm:mb-8 md:mb-12">
-            Markdown Previewer
-          </h1>
-        </header>
+        <Header />
 
         <div className="flex flex-col items-center justify-center min-h-full">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mb-0 bg-sky-100 w-72 sm:w-10/12 text-center rounded-t-md max-w-7xl">
@@ -89,3 +86,5 @@ function example() {
 }
 
 export default App;
+
+
