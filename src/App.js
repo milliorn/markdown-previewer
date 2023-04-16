@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { marked } from "marked";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
@@ -43,6 +44,14 @@ function example() {
 
   return (
     <div className="bg-sky-400 dark:bg-sky-950 min-h-screen flex flex-col justify-between">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Markdown Previewer</title>
+        <meta
+          name="description"
+          content="Single Page App to preview Markdown."
+        />
+      </Helmet>
       <div>
         <Header />
 
@@ -58,5 +67,3 @@ function example() {
 }
 
 export default App;
-
-
