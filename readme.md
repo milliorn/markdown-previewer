@@ -1,7 +1,6 @@
 # Markdown Previewer
 
 [![CodeQL](https://github.com/milliorn/markdown-previewer/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/milliorn/markdown-previewer/actions/workflows/github-code-scanning/codeql)
-[![Dependency Review](https://github.com/milliorn/markdown-previewer/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/milliorn/markdown-previewer/actions/workflows/dependency-review.yml)
 
 This repository contains the code for a Markdown Previewer web application. The Markdown Previewer allows users to write and preview markdown syntax in real-time. It provides a convenient way to create formatted content, such as documentation, blog posts, and README files, using simple and intuitive markup.
 
