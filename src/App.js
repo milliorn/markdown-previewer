@@ -27,7 +27,7 @@ function example() {
 **Bolded text**`;
 
   // Set the state for the textarea
-  const [text, setText] = useState(defaultMarkdown);
+  const [ text, setText ] = useState(defaultMarkdown);
 
   // On initial render, set the preview
   useEffect(() => {

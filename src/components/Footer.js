@@ -8,12 +8,12 @@ export function Footer(props) {
         &copy; {currentYear}{" "}
         <a
           href="https://github.com/milliorn"
-          alt="github"
+          alt="Created by Scott Milliorn, Github"
           target="_blank"
           rel="noreferrer"
-          aria-label="link to source code on Github"
+          aria-label="Created by Scott Milliorn, Github"
         >
-          Scott Milliorn
+          Created by Scott Milliorn - Github
         </a>
       </p>
     </footer>
