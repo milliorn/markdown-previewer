@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://milliorn.github.io/markdown-previewer",
   "dependencies": {
-    "marked": "^11.0.0",
+    "marked": "^11.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
